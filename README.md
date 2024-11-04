@@ -1,4 +1,4 @@
-# Exploratory-Data-Analysis-Walmart-Python-Sql
+# Performance Metrics Analysis for Retail Regional Revenue Growth
 
 ## Business Overview
 Walmart, as one of the world’s leading retail giants, faces an ongoing challenge to understand and respond effectively to customer needs and market trends. As a business that operates across various cities and branches, Walmart’s ability to manage inventory, optimize staffing, and refine marketing strategies is essential to maintain profitability and customer satisfaction.
