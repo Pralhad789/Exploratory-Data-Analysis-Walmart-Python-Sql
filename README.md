@@ -45,7 +45,7 @@ After cleaning, the data was loaded into MySQL database, where SQL was used to a
 * Question: Which branches experienced the largest increase in revenue compared to the previous year?
 * Purpose: Detecting branches with rising revenue highlights successful areas, providing insights that can be used to replicate success in other branches and support continued growth.
 
-'''sql
+```sql
 WITH revenue_2022 AS (
     SELECT 
         branch,
@@ -72,5 +72,4 @@ JOIN revenue_2023 AS r2023 ON r2022.branch = r2023.branch
 WHERE r2023.revenue > r2022.revenue
 ORDER BY revenue_increase_ratio DESC
 LIMIT 5;
-
-'''
+```
